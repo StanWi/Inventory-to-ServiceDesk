@@ -1,0 +1,6 @@
+location list from inventory
+
+sqlite> .mode csv
+sqlite> .output locations.csv
+sqlite> SELECT DISTINCT(a.name), b.name FROM location as a, cte as b WHERE a.cte = b.id;
+sqlite> .output

@@ -1,0 +1,6 @@
+*.pyc
+*~
+__pycache__
+myvenv
+in_work.csv
+locations.csv
